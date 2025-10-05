@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre  Líneas</title>
+</head>
+<body style="font-family: 'Poppins', sans-serif; background-color: #f8ecdd; color: #3a2c1a; margin: 0;">
+
+    <!-- sección de texto en marquesina -->
+    <marquee behavior="continue" direction="right" 
+        style="background-color: #c7a17a; color: white; font-size: 30px; padding: 10px 0;">
+        Entre Líneas
+    </marquee>
+
+    <!-- sección contenedor principal -->
+    <div id="contenedor" style="max-width: 600px; margin: 50px auto; background-color: #f3e3ce; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); padding: 30px;">
+
+        <center>
+            <div id="cabecera">
+                <h1 style="color: #3a2c1a; font-size: 32px; margin-bottom: 5px;">Contáctanos</h1>
+                <p style="font-size: 18px; color: #6a5640;">Capacítate con nosotros</p>
+            </div>
+
+            <!-- sección de contenido principal -->
+            <div id="contenido" style="margin-top: 30px;">
+                <div class="articulo">
+                    <h2 style="color: #3a2c1a; font-size: 24px; margin-bottom: 20px;">Formulario de Registro</h2>
+                    
+                    <form action="#" method="post" style="text-align: left;">
+                        <label>Nombre</label><br>  
+                        <input type="text" name="nombre" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #c7a17a; border-radius: 8px;"><br> 
+                        
+                        <label>Email</label><br>  
+                        <input type="email" name="email" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #c7a17a; border-radius: 8px;"><br>  
+                        
+                        <label>Contraseña</label><br>  
+                        <input type="password" name="password" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #c7a17a; border-radius: 8px;"><br>
+                        
+                        <label>Confirmar Contraseña</label><br>  
+                        <input type="password" name="confirmar" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #c7a17a; border-radius: 8px;"><br>  
+
+                        <p style="text-align: center; margin-top: 10px;">¿Ya tienes cuenta?</p>
+                        <p style="text-align: center;"><a href="./fingresos.html" style="color: #c7a17a; text-decoration: none; font-weight: 500;">Iniciar Sesión</a></p>
+
+                        <!-- Botón registrarse -->
+                        <div style="text-align: center;">
+                            <button type="submit" 
+                                style="margin-top: 15px; padding: 10px 30px; background-color: #c7a17a; color: white; border: none; border-radius: 8px; font-size: 16px; cursor: pointer;">
+                                Registrarse
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Botón volver -->
+                    <div style="text-align: center;">
+                        <a href="../index.html" 
+                           style="display: inline-block; margin-top: 20px; padding: 10px 30px; background-color: #3a2c1a; color: white; border-radius: 8px; text-decoration: none; font-size: 16px;">
+                           Volver
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </div>
+</body>
+</html>
